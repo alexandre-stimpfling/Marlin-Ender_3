@@ -2070,7 +2070,7 @@
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
 //#define MANUAL_X_HOME_POS 0
-//#define MANUAL_Y_HOME_POS 0
+#define MANUAL_Y_HOME_POS -5 // Je fixe ici une valeure négative car le Home Y est hors plateau. Le EndStop Y est trop en arrière sur le rail et je ne peux pas le reculer sans le bricoler.
 //#define MANUAL_Z_HOME_POS 0
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
